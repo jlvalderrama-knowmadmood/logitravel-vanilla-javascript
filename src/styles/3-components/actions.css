@@ -1,0 +1,9 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions .button:last-child {
+  margin-left: auto;
+}

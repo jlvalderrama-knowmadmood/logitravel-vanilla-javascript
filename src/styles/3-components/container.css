@@ -1,0 +1,16 @@
+.list-container {
+  background-color: var(--color-surface);
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #CCCCCC;
+  border-radius: 20px;
+  box-shadow: 0 5px 12px #0000001F;
+  position: relative;
+}
+
+.list-header {
+  text-align: center;
+  margin-bottom: 35px;
+}

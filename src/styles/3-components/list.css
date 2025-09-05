@@ -1,0 +1,24 @@
+.list {
+  background-color: var(--color-surface-2);
+  padding: 22px 26px;
+  margin-bottom: 30px;
+}
+
+.list__item {
+  padding: 9px;
+  cursor: pointer;
+}
+
+.list__item:not(.list__item--selected):hover {
+  background-color: var(--color-surface-2-dark);
+}
+
+.list__item--selected {
+  background-color: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.list__item--selected:hover {
+  background-color: var(--color-accent-dark);
+  color: var(--color-on-accent-dark);
+}

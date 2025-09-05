@@ -1,0 +1,15 @@
+.add-item-form__text-field {
+  padding: 19px 21px;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  background-color: var(--color-surface-2);
+  border: 2px solid var(--color-text);
+  width: 100%;
+}
+
+.add-item-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
