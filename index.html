@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba técnica Logitravel - Vanilla JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=refresh" />
+    <script type="module" src="/src/main.js"></script>
 </head>
 <body>
-  <h1>Hello</h1>
+    <main>
+        <div class="list-container">
+            <header class="list-header">
+                <h1 class="title">This is a technical proof</h1>
+                <p class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia laborum
+                    repellat consectetur rem autem nemo omnis aut accusantium iste sit libero
+                    quam minus ipsum non, repellendus qui exercitationem voluptate harum quo
+                    natus unde at labore?
+                </p>
+            </header>
+            <ul class="list" id="list"></ul>
+            <div class="actions">
+                <button id="undo-button" class="button button--secondary button--with-icon">
+                    <span class="material-symbols-outlined">refresh</span>
+                </button>
+                <button id="delete-items-button" class="button button--secondary">Delete</button>
+                <button id="open-add-item-modal" class="button button--primary">Add</button>
+            </div>
+            <div id="overlay" class="overlay">
+                <div class="add-item-modal" id="add-item-modal">
+                    <h2 class="title-2">Add item to list</h2>
+                    <form id="add-item-form">
+                        <input type="text" placeholder="Type the text here..." id="new-item-input" class="add-item-form__text-field" />
+                        <div class="add-item-form__actions">
+                            <button type="submit" id="add-item" class="button button--primary">Add</button>
+                            <button type="button" id="cancel-item" class="button button--secondary">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
